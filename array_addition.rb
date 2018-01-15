@@ -10,7 +10,7 @@ grocery_list2.at(0) # this lets you call index "0" from the array
 grocery_list2.first #lets you call the first item of array. 
 grocery_list2.last #lests you call the last item of array
 grocery_list2[-1] # lets you call out the last item of array or in reverse order, [-2] will call out pie.
-grocery_list2.inset(2, "oatmeal") # this lets you add an element to array at a certain position.
+grocery_list2.insert(2, "oatmeal") # this lets you add an element to array at a certain position.
 grocery_list2.count # gives you a count of total of items in array.
 grocery_list2.count("eggs") # will count the items with name "eggs" on array.
 grocery_list2.include?("water") # this lets you check if certain element is included in the array. in this case, the result is false because water is not included in array. 

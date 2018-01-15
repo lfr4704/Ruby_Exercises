@@ -9,8 +9,12 @@ item[:name] = "Bread" # this is another way to add key and value to a hash. the 
 item.delete(1) # this will delete the key number "1" and its value from the item hash.
 item = {name: "Bread", quantity: 1} # this is another way to add to a hash without using "=>"
 hash.keys # this outputs the keys in the hash
-hash.has.key?(name:) # this will yield to true as the hash contains "name:" 
+hash.has.key?(name:) # this will yield to true as the hash contains "name:"
+has.has_key?(name:) # this is a another way to find if has contains "name:"
 hash.key?(name:) # is another way to find out 
 hash.member?(name:) #is another way
 hash.fetch(quantity:) # this will output the value for this key.
 hash.store("calories",100) #this is a way to add a key and value to hash
+hash.has_value? # similar to .has_key
+hash.has_values? # similar to .has_keys
+hash.values_at(name:) # this returns the values paired with the "name:" key 
